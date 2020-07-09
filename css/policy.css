@@ -1,0 +1,24 @@
+.privacy {
+    padding: 2em;
+    width: 800px;
+    margin: auto;
+}
+
+strong {
+    font-size: 2em;
+}
+
+p {
+    margin: 1.6em;
+    line-height: 1.6;
+}
+
+.enfase {
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+ul {
+    margin-left: 100px;
+}
+

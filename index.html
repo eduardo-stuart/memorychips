@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Chips: The Ultimate Brain Teaser Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
+
+    <link rel="stylesheet" href="css/glider.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigation Top Bar -->
+    <section class="section-a">
+        <nav class="navbar">
+            <span class="navbar-toggle" id="js-navbar-toggle">
+                <i class="fas fa-bars"></i>
+            </span>
+            <a href="/" class="logo">MEMORY CHIPS</a>
+            <ul class="main-nav" id="js-menu">
+                <li>
+                    <a href="contact.html" class="nav-links">Contact</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-links"><span class="flag"><img src="img/brasil.svg" alt="Brazilian Flag" height="28px" class="img-flag"></span>Português</a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+
+    <!-- Hero Banner -->
+    <section class="section-b">
+        <div class="banner-top">
+            <img src="img/bigchip.webp" alt="Memory Chips Rotating Chip" class="imgbigchip">
+            <img src="img/titlelogo.webp" alt="Memory Chips Title Logo" class="imgtitlelogo">
+        </div>
+    </section>
+
+    <div class="main-contents">
+
+        <section class="attract-mode">
+            <div class="row">
+                <div class="column">
+                    <span class="attract-title">CHALLENGE YOUR <br /><span class="destaque">MEMORY</span> AND <span class="destaque">VISUAL SKILLS</span>
+                    <p>The chips are shuffled</p>
+                    <p>They are in constant movement</p>
+                    <p>Can you find it all?</p>
+                    <p>In the correct order?</p>
+                </div>
+                <div class="column">
+                    <div class="glider-contain multiple">
+                        <button class="glider-prev">
+                            <i class="fa fa-chevron-left"></i>
+                        </button>
+                        <div class="glider">
+                            <img src="img/img1.webp" alt="" class="screenshot">
+                            <img src="img/img2.webp" alt="" class="screenshot">
+                            <img src="img/img3.webp" alt="" class="screenshot">
+                        </div>
+                        <button class="glider-next">
+                            <i class="fa fa-chevron-right"></i>
+                        </button>
+                        <div class="glider-dots" id="dots"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <div class="game-modes">
+
+        <!-- Game Modes -->
+        <section class="game-modes">
+            <div class="row">
+                <div class="column">
+                    <h1>Two Game Modes</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <div class="gamemodcard">
+                        <div class="gamemodeicon1"></div>
+                        <div class="modetitle">
+                            <p>Waves</p>
+                        </div>
+                        <div class="gamemodedesc">
+                            <p>A set of new chips for each round</p>
+                            <img src="img/gamemodewaves.webp" alt="Memory Chips: Waves Game Mode">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="column">
+                    <div class="gamemodcard">
+                        <div class="gamemodeicon2"></div>
+                        <div class="modetitle">
+                            <p>Marathon</p>
+                        </div>
+                        <div class="gamemodedesc">
+                            <p>The never-ending sequence of chips</p>
+                            <img src="img/gamemodemarathon.webp" alt="Memory Chips: Waves Game Mode">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="section-get-now">
+                <h1>GET IT NOW!</h1>
+                <p><span class="destaque">Memory Chips: The Ultimate Brain Teaser</span> is a game designed to run on Android devices.</p>
+                <p>Get your free copy on <span class="destaque">Google Play</span></p>
+
+                <a href='https://play.google.com/store/apps/details?id=com.eduardostuart.memorychipsfree&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' height="80"/></a>
+    </section>
+
+    <section class="footer">
+        <p>(c) 2013-2020 <em>Memory Chips: The Ultimate Brain Teaser</em> is a game created by Eduardo Stuart | <a href="privacy.html">Privacy Policy</a> </p>
+    </section>
+
+
+    
+
+    <script src="js/glider.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <script>
+        new Glider(document.querySelector('.glider'), {
+            slidesToShow: 1,
+            draggable: true,
+            dots: '#dots',
+            arrows: {
+                prev: '.glider-prev',
+                next: '.glider-next'
+            }
+        });
+    </script>
+
+<!-- Default Statcounter code for Memory Chips
+https://memorychips.eduardostuart.pro.br -->
+<script type="text/javascript">
+    var sc_project=12354990; 
+    var sc_invisible=1; 
+    var sc_security="abe02ed4"; 
+    var sc_https=1; 
+    </script>
+    <script type="text/javascript"
+    src="https://www.statcounter.com/counter/counter.js"
+    async></script>
+    <noscript><div class="statcounter"><a title="Web Analytics"
+    href="https://statcounter.com/" target="_blank"><img
+    class="statcounter"
+    src="https://c.statcounter.com/12354990/0/abe02ed4/1/"
+    alt="Web Analytics"></a></div></noscript>
+<!-- End of Statcounter Code -->
+
+</body>
+</html>
