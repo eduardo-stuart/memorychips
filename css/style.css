@@ -144,6 +144,7 @@ Seção com o Hero Banner
     flex-direction: column;
     flex-basis: 100%;
     max-width: 550px;
+    min-width: 300px;
     justify-content: center;
     align-items: center;
     margin: auto;
