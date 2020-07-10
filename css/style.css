@@ -144,7 +144,7 @@ Seção com o Hero Banner
     flex-direction: column;
     flex-basis: 100%;
     max-width: 550px;
-    min-width: 300px;
+    min-width: 200px;
     justify-content: center;
     align-items: center;
     margin: auto;
@@ -172,13 +172,11 @@ Seção com o Hero Banner
     font-weight: bolder;
 }
 
-
 .glider img {
     border-radius: 10px;
 }
 
 .game-modes {
-    /* height: 426px; */
     background-position: center;
     background-repeat: none;
     background-size: cover;
@@ -200,7 +198,6 @@ Seção com o Hero Banner
 }
 
 .gamemodcard {
-    /* height: 400px; */
     max-width: 560px;
     padding-top: 20px;
     padding-bottom: 30px;
